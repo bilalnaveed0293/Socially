@@ -1,4 +1,5 @@
 package com.example.socially
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
@@ -9,24 +10,25 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
 
-        // Find the back button and set a click listener to go back
         val btnBack = findViewById<ImageView>(R.id.btnBackFromChat)
         btnBack.setOnClickListener {
-            finish() // This closes the current activity and returns to the previous one
+            finish()
         }
 
-        // Get the Intent that started this activity
-        val intent = intent
-
-        // Retrieve the username passed as an extra
-        val userName = intent.getStringExtra("CHAT_USER_NAME")
-
-        // Find the TextView for the username in the header
+        val btnVideoCall = findViewById<ImageView>(R.id.btnVideoCall)
         val tvChatUserName = findViewById<TextView>(R.id.tvChatUserName)
 
-        // Set the text of the TextView to the retrieved username, if it exists
+        val userName = intent.getStringExtra("CHAT_USER_NAME")
         if (userName != null) {
             tvChatUserName.text = userName
+        }
+
+        // Add a click listener for the video call button
+        btnVideoCall.setOnClickListener {
+            val intent = Intent(this, VideoCallActivity::class.java)
+            // You can pass the user name to the video call screen
+            intent.putExtra("CALLER_NAME", tvChatUserName.text.toString())
+            startActivity(intent)
         }
     }
 }
