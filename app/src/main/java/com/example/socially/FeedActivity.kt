@@ -13,6 +13,19 @@ class FeedActivity : AppCompatActivity() {
         val btnHeart = findViewById<ImageView>(R.id.btnHeart)
         val btnProfile = findViewById<ImageView>(R.id.btnProfile)
         val btnMessages = findViewById<ImageView>(R.id.btnMessages)
+        val btnstory = findViewById<ImageView>(R.id.story1)
+        val btnstory1 = findViewById<ImageView>(R.id.story2)
+        btnstory1.setOnClickListener {
+            val intent = Intent(this, StoryViewerActivity::class.java)
+            startActivity(intent)
+
+        }
+        btnstory.setOnClickListener {
+            val intent = Intent(this, StoryViewerActivity::class.java)
+            startActivity(intent)
+
+        }
+
         btnHome.setOnClickListener {
             // Already on home screen - you can add refresh functionality here if needed
         }
@@ -21,6 +34,8 @@ class FeedActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnAdd.setOnClickListener {
+            val intent = Intent(this, AddPostActivity::class.java)
+            startActivity(intent)
             // TODO: Add functionality for Add button
         }
         // Heart button - navigate to notifications activity
