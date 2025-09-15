@@ -1,6 +1,7 @@
 package com.example.socially
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 class ProfileActivity : AppCompatActivity() {
@@ -12,7 +13,7 @@ class ProfileActivity : AppCompatActivity() {
         btnBack.setOnClickListener {
             finish()
         }
-        val btnEditProfile = findViewById<ImageView>(R.id.btnEditProfile) // You will need to add this ID to your Button in activity_profile.xml
+        val btnEditProfile = findViewById<Button>(R.id.btnEditProfile) // You will need to add this ID to your Button in activity_profile.xml
 
         btnEditProfile.setOnClickListener {
             val intent = Intent(this, EditProfileActivity::class.java)

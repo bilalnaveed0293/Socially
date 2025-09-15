@@ -47,8 +47,8 @@
 
             <ImageView
                 android:id="@+id/btnAddHeader"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:layout_width="58dp"
+                android:layout_height="50dp"
                 android:src="@drawable/ic_add"
                 android:contentDescription="Add"
                 android:padding="6dp"
@@ -126,6 +126,72 @@
 
                         <ImageView
                             android:id="@+id/story2"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/ic_profile"
+                            android:background="@drawable/story_circle"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="karenne"
+                            android:textSize="12sp"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginEnd="12dp">
+
+                        <ImageView
+                            android:id="@+id/story3"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/ic_profile"
+                            android:background="@drawable/story_circle"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="karenne"
+                            android:textSize="12sp"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginEnd="12dp">
+
+                        <ImageView
+                            android:id="@+id/story4"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/ic_profile"
+                            android:background="@drawable/story_circle"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="karenne"
+                            android:textSize="12sp"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginEnd="12dp">
+
+                        <ImageView
+                            android:id="@+id/story5"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:src="@drawable/ic_profile"
@@ -351,8 +417,8 @@
 
             <ImageView
                 android:id="@+id/btnHome"
-                android:layout_width="28dp"
-                android:layout_height="28dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_home"
                 android:contentDescription="Home"/>
         </LinearLayout>
@@ -365,8 +431,8 @@
 
             <ImageView
                 android:id="@+id/btnSearch"
-                android:layout_width="28dp"
-                android:layout_height="28dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_search"
                 android:contentDescription="Search"/>
         </LinearLayout>
@@ -379,8 +445,8 @@
 
             <ImageView
                 android:id="@+id/btnAdd"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_add"
                 android:contentDescription="Add"/>
         </LinearLayout>
@@ -393,8 +459,8 @@
 
             <ImageView
                 android:id="@+id/btnHeart"
-                android:layout_width="28dp"
-                android:layout_height="28dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_heart"
                 android:contentDescription="Notifications"/>
         </LinearLayout>

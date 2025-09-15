@@ -34,30 +34,29 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Log in"
-        android:background="#A52A2A"
-        android:textColor="#FFFFFF"
+        android:textColor="#FFFF"
         android:layout_marginTop="20dp"
-        android:id="@+id/btnLogin" />
+        android:id="@+id/btnLogin"
+        android:backgroundTint="#A52A2A"/>
 
-    <Button
+    <TextView
         android:id= "@+id/tvswitchaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Switch accounts"
         android:textSize="14sp"
-        android:textColor="#FFFF"
+        android:textColor="#A52A2A"
         android:layout_marginTop="10dp"
         android:gravity="center" />
 
-    <Button
-        android:id= "@+id/btnSignup"
+    <TextView
+        android:id="@+id/btnSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Sign up."
-        android:textSize="12sp"
-        android:textColor="#FFFF"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
         android:gravity="center"
-        />
+        android:text="Don't have an account? Sign up."
+        android:textColor="#A52A2A"
+        android:textSize="12sp" />
 
 </LinearLayout>

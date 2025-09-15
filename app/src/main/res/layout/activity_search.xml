@@ -41,8 +41,8 @@
                     android:textColor="#888888" />
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="50dp"
+                    android:layout_height="46dp"
                     android:src="@drawable/ic_heart" />
             </LinearLayout>
 
@@ -116,18 +116,18 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="130dp"
+                    android:layout_height="200dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/sample_post"
                     android:layout_marginEnd="1dp" />
 
                 <ImageView
                     android:layout_width="0dp"
+                    android:layout_height="203dp"
+                    android:layout_marginStart="1dp"
                     android:layout_weight="2"
-                    android:layout_height="130dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/sample_post"
-                    android:layout_marginStart="1dp" />
+                    android:src="@drawable/search1" />
             </LinearLayout>
 
             <!-- Row 2 -->
@@ -142,7 +142,7 @@
                     android:layout_weight="1"
                     android:layout_height="130dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/sample_post"
+                    android:src="@drawable/search4"
                     android:layout_marginEnd="1dp" />
 
                 <ImageView
@@ -150,7 +150,7 @@
                     android:layout_weight="1"
                     android:layout_height="130dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/sample_post"
+                    android:src="@drawable/search3"
                     android:layout_marginStart="1dp"
                     android:layout_marginEnd="1dp" />
 
@@ -159,7 +159,7 @@
                     android:layout_weight="1"
                     android:layout_height="130dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/sample_post"
+                    android:src="@drawable/search2"
                     android:layout_marginStart="1dp" />
             </LinearLayout>
 
@@ -267,8 +267,8 @@
 
             <ImageView
                 android:id="@+id/btnHome"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_home"
                 android:contentDescription="Home" />
         </LinearLayout>
@@ -281,8 +281,8 @@
 
             <ImageView
                 android:id="@+id/btnSearch"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_search"
                 android:contentDescription="Search" />
         </LinearLayout>
@@ -295,8 +295,8 @@
 
             <ImageView
                 android:id="@+id/btnAdd"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_add"
                 android:contentDescription="Add" />
         </LinearLayout>
@@ -309,8 +309,8 @@
 
             <ImageView
                 android:id="@+id/btnHeart"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="58dp"
+                android:layout_height="38dp"
                 android:src="@drawable/ic_heart"
                 android:contentDescription="Notifications" />
         </LinearLayout>

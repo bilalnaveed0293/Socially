@@ -55,10 +55,10 @@
 
         <ImageView
             android:id="@+id/btnOptions"
-            android:layout_width="60dp"
+            android:layout_width="70dp"
             android:layout_height="60dp"
             android:background="@drawable/rounded_button_bg"
-            android:src="@drawable/ic_heart"
+            android:src="@drawable/ic_info"
             android:contentDescription="Options"
             android:padding="16dp"
             android:layout_marginEnd="32dp" />
@@ -78,7 +78,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="@drawable/rounded_button_bg"
-            android:src="@drawable/ic_camera"
+            android:src="@drawable/ic_mic"
             android:contentDescription="Speaker"
             android:padding="16dp" />
 

@@ -90,8 +90,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create an Account"
-        android:background="#FFFFFF"
-        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#A52A2A"
         android:layout_marginTop="20dp"
         android:id="@+id/btnCreateAccount" />
 

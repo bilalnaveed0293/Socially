@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:gravity="center_horizontal"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    android:layout_marginTop="50dp">
 
     <!-- Title -->
     <TextView
@@ -55,7 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Log in"
-        android:background="#A52A2A"
+        android:backgroundTint="#A52A2A"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 

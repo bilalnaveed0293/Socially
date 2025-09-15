@@ -56,8 +56,8 @@
 
         <ImageView
             android:id="@+id/btnInfo"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="54dp"
+            android:layout_height="34dp"
             android:src="@drawable/ic_add"
             android:contentDescription="Info" />
 
@@ -90,17 +90,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hello"
-                android:background="@drawable/ic_heart"
-                android:textColor="#FFFFFF"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
                 android:layout_gravity="end"
+                android:layout_marginStart="60dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginBottom="4dp"
-                android:layout_marginStart="60dp"/>
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="10dp"
+                android:text="Hello"
+                android:background="#A52A2A"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
     </ScrollView>
 
@@ -148,8 +148,8 @@
             android:contentDescription="Gallery" />
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
             android:src="@drawable/ic_add"
             android:layout_marginStart="16dp"
 

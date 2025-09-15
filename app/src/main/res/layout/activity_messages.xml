@@ -26,30 +26,31 @@
             android:contentDescription="Back"
             />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginStart="16dp"
             android:gravity="center_vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingLeft="100dp"
                 android:text="jacob_w"
+                android:textColor="#A52A2A"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="#000000" />
+                android:textStyle="bold" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <ImageView
             android:id="@+id/btnNewMessage"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/ic_add"
             android:contentDescription="New Message"
-           />
+            android:src="@drawable/ic_add" />
     </LinearLayout>
 
     <ScrollView
@@ -77,8 +78,8 @@
                 android:paddingBottom="8dp">
 
                 <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
                     android:src="@drawable/ic_search"
                     android:contentDescription="Search"
                    />
@@ -167,7 +168,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="karennne"
+                        android:text="Zack"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:textColor="#000000" />
@@ -182,7 +183,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="now"
+                    android:text="15m"
                     android:textSize="12sp"
                     android:textColor="#888888"
                     android:layout_marginEnd="8dp" />
@@ -225,7 +226,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="I heard this is a good movie, so I..."
+                        android:text="Sure"
                         android:textSize="14sp"
                         android:textColor="#888888" />
                 </LinearLayout>
@@ -233,7 +234,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="now"
+                    android:text="Yesterday"
                     android:textSize="12sp"
                     android:textColor="#888888"
                     android:layout_marginEnd="8dp" />
@@ -269,14 +270,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="karennne"
+                        android:text="Samuel"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:textColor="#000000" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="I heard this is a good movie, so I..."
+                        android:text="Dont think its a good idea"
                         android:textSize="14sp"
                         android:textColor="#888888" />
                 </LinearLayout>
@@ -284,7 +285,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="now"
+                    android:text="2h"
                     android:textSize="12sp"
                     android:textColor="#888888"
                     android:layout_marginEnd="8dp" />
@@ -320,14 +321,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="karennne"
+                        android:text="Reem"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:textColor="#000000" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="I heard this is a good movie, so I..."
+                        android:text="I"
                         android:textSize="14sp"
                         android:textColor="#888888" />
                 </LinearLayout>
@@ -335,7 +336,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="now"
+                    android:text="1h"
                     android:textSize="12sp"
                     android:textColor="#888888"
                     android:layout_marginEnd="8dp" />
@@ -371,7 +372,7 @@
             android:text="Camera"
             android:layout_marginStart="8dp"
             android:textSize="16sp"
-            android:textColor="#000000" />
+            android:textColor="#A52A2A" />
     </LinearLayout>
 
 </RelativeLayout>
