@@ -31,7 +31,7 @@ class SearchActivity : AppCompatActivity() {
 
         // Home button - go back to main activity
         btnHome.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, FeedActivity::class.java)
             startActivity(intent)
         }
 

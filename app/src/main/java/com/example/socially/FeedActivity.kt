@@ -15,12 +15,24 @@ class FeedActivity : AppCompatActivity() {
         val btnMessages = findViewById<ImageView>(R.id.btnMessages)
         val btnstory = findViewById<ImageView>(R.id.story1)
         val btnstory1 = findViewById<ImageView>(R.id.story2)
+        val btnstory2 = findViewById<ImageView>(R.id.story3)
+        val btnstory3 = findViewById<ImageView>(R.id.story4)
         btnstory1.setOnClickListener {
             val intent = Intent(this, StoryViewerActivity::class.java)
             startActivity(intent)
 
         }
         btnstory.setOnClickListener {
+            val intent = Intent(this, StoryViewerActivity::class.java)
+            startActivity(intent)
+
+        }
+        btnstory2.setOnClickListener {
+            val intent = Intent(this, StoryViewerActivity::class.java)
+            startActivity(intent)
+
+        }
+        btnstory3.setOnClickListener {
             val intent = Intent(this, StoryViewerActivity::class.java)
             startActivity(intent)
 

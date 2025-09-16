@@ -16,9 +16,10 @@ class LoginActivity : AppCompatActivity() {
 
         btnLoginNow.setOnClickListener {
             // Later you can add login validation here
+            val intent = Intent(this, FeedActivity::class.java)
+            startActivity(intent)
         }
-        val intent = Intent(this, FeedActivity::class.java)
-        startActivity(intent)
+
 
         tvSignupLink.setOnClickListener {
             val intent = Intent(this, SignupActivity::class.java)
